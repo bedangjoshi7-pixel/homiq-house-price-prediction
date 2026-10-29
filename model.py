@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # 1. Loading the dataset
 data = pd.read_csv(
-    r"C:\Users\ACER\Desktop\ML things\Data\house_price_train_data.csv"
+    r"house_price_train_data.csv"
 )
 
 x_train = data["size_sqft"].to_numpy(dtype=float)
